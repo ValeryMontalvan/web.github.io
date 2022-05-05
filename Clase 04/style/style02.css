@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        background: #878585;
+}
+#contenedor{
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#redes{
+    float: right;
+    line-height: 100px;
+}
+nav{
+    display: block;
+        width: 1000px;
+        margin: auto;
+        background: red;
+        font-family: Tahoma;
+}
+
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    text-decoration: none;
+}
+nav a:hover{
+    background: black;
+    color: yellow;
+}
+
+#banner{
+    margin: auto;
+    border: 10px solid #FFFFFF;
+    margin-top: 10px;
+}
+/*Estilos para el CSS*/
+
+#contenido{
+    float: left;
+    width: 700px;
+    background: #A7999A;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.articles h2{
+    font-size: 40px;
+    padding: 10px;
+    color: #6B5859;
+    font-family: 'Times New Roman';
+    border-bottom: 2px solid #FF0004;
+
+}
+.articles p{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 15px;
+    text-align: justify;
+}
+.articles img{
+    float: left;
+    margin: 10px;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+header{
+    height: 100px;
+    background: black;
+}
+header{
+    display: block;
+}
+header h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Tahoma;
+    line-height: 100px;
+    margin-left: 10px;
+    float: left;
+}
+#redes img{
+    margin: 10px;
+    vertical-align: middle;
+    border-radius: 100%;
+}
+
+aside{
+    float: right;
+    width: 250px;
+    background: #8B8383;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: block;
+}
+aside h3{
+    font-size: 24px;
+    background: #1D1919;
+    text-align: center;
+    padding: 10px;
+    color: #FFFFFF;
+}
+aside p{
+    font-size: 13px;
+    text-align: justify;
+    line-height: 16px;
+}
+footer{
+    height: 60px;
+    background: #2E2A2B;
+    clear: both;
+    display: block;
+}
+footer p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}

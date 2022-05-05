@@ -1,0 +1,43 @@
+#redes{
+    position: fixed;
+    z-index:100000;
+    top: 300px;
+    left: 0;
+}
+#facebook a{
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+}
+#facebook a:hover{
+    background: black;
+    transition: 0.3s ease-out;
+    padding: 10px 30px;
+}
+#twitter a{
+    background: skyblue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+}
+#twitter a:hover{
+    background: black;
+    transition: 0.3s ease-out;
+    padding: 10px 30px;
+}
+
+#instagram a{
+    background: deeppink;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+}
+#instagram a:hover{
+    background: black;
+    transition: 0.3s ease-out;
+    padding: 10px 30px;
+}

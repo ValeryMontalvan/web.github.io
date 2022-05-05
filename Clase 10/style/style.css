@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: Arial;
+    background-color: #ffffff;
+}
+header {
+    background: #292929;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(17, 149, 214) 5px solid;
+    display: block;
+}
+.contenedor {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+div {
+    display: block;
+}
+.resaltado{
+    color: rgb(16, 144, 207);
+    font-size: 34px;
+    font-family: Arial;
+}
+.boton a {
+    color: #1293d4;
+    font-weight: bold;
+}
+#cabecera {
+    min-height: 400px;
+    background: url(../img/cabecera.jpg) no-repeat 0 -400px;
+    text-align: center;
+    color: #ffffff;
+}
+.contenedor {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#cabecera h1 {
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#cabecera p{
+    font-size: 20px;
+}
+#boletin{
+    background: #292929;
+    padding: 30px;
+}
+#boletin h1{
+    color: white;
+    float: left;
+    font-size: 22px;
+}
+#boletin form{
+    float: right;
+}
+#boletin input[type="email"] {
+    padding: 4px;
+    height: 34px;
+    width: 250px;
+}
+.boton1{
+    height: 34px;
+    background: #ec5228;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+#cajas .cuadro{
+    float: left;
+    text-align: center;
+    width: 32%;
+    padding: 9px;
+    display: block;
+}
+#cajas .cuadro img{
+    width: 90px;
+}
+#cajas .cuadro img{
+    width: 90px;
+}
+#cajas .cuadro p{
+    font-size: 14px;
+}
+section{
+    display: block;
+}
+#main-a{
+    float: left;
+    width: 65%;
+}
+.cuadro2{
+    padding: 10px;
+    background: #383838;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+aside{
+    display: block;
+}
+#lateral{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+#main img{
+    width: 900px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+#servicios li {
+    list-style: none;
+    padding: 33px;
+    border: #999999 solid 1px;
+    margin-bottom: 5px;
+    background: #eeeeee;
+}
+label{
+    cursor: default;
+}
+input, textarea{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #999999;
+    margin-bottom: 5px;
+}
+textarea {
+    height: 100px;
+}
+/*Estilos para botonera*/
+nav{
+    float: right;
+    margin-top: 15px;
+    display: block;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+/*Estilos para el footer*/
+footer{
+    background: #279ce4;
+    padding: 25px;
+}
+footer p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}

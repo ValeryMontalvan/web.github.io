@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 90px;
+    margin-left: 10%;
+    padding: 5px;
+    margin-top: 2px;
+}
+header{
+    width: 100%;
+    background: #373435;
+    height: 80px;
+    position: fixed;
+    z-index: 100;
+}
+.content{
+    width: 100%;
+}
+.cont-img {
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagenes/image1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+	-webkit-box-pack: center; 
+	-ms-flex-pack: center; 
+	justify-content: center;
+}
+h2{
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+.content h3{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+h4{
+    color: white;
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+.items{
+    text-align: center;
+    padding: 30px;
+}
+
+.content-dos{
+    width: 100%;
+    padding: 25px;
+}
+.cuadros{
+    text-align: center;
+    margin: 20px;
+}
+.cuadraditos{
+    margin: 20px;
+}
+.cuadros h3{
+    color: black;
+}
+
+
+.icon-heart, .icon-headset, .icon-laptop{
+    color: #d18aad;
+    font-size: 40px;
+}
+
+
+.content-three{
+    width: 100%;
+}
+.celulares{
+    text-align: center;
+    padding: 30x;
+}
+.cont-cel img{
+    transition: 0.2s;
+}
+.cont-cel img:hover{
+    transform: rotate(6deg);
+    transition: 0.2s;
+}
+
+.cont-we{
+    padding: 30px;
+}
+.cont-design{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.cont-design h3{
+    text-align: center;
+}
+.cont-design p{
+    text-align: center;
+    color: rgb(173, 173, 173);
+}
+
+.cont-design img{
+    width: 100%;
+    margin-top: 40px;
+}
+.cont-design h3{
+    text-align: center;
+}
+.cont-design p{
+    text-align: center;
+    color: rgb(148, 148, 148);
+}
+
+
+
+.cont-info{
+    width: 100%;
+    background: #99a4d3;
+}
+.cont-brands{
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 45px;
+}
+/*Estilos para el footer*/
+footer{
+    width: 100%;
+    background: #373435;
+    padding: 40px;
+    text-align: center;
+}
+footer label {
+    cursor: default;
+    padding: 20px;
+    color: rgb(177, 177, 177);
+    font-size: 35px;
+}
+footer label:hover{
+    color: #d18aad;
+}
+
+@media (min-width: 768px){
+    .cuadros{
+        display: flex;
+        justify-content: space-between;
+    }
+}
